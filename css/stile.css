@@ -1,0 +1,584 @@
+/* ///////////////// */
+
+/* цвета | colors */
+
+/* фон #22201e */
+/* header #11100f #efefef */
+/* li #cfcfcf */
+/* текст #cfcfcf */
+/* ссылки #cfcfcf */
+/* ссылки навод #11100f #cfcfcf */
+/* border gray */
+/* end-site #bfccd4 */
+
+/* ///////////////// */
+
+
+
+body{
+	background: #101010;}
+
+
+.to-top,.back{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.to-top:hover,.back:hover{
+	cursor: pointer;
+	color: #afafaf;
+}
+
+ul{
+	:hover{cursor: pointer;}
+	
+}
+
+
+
+
+
+
+
+/* logreg регистрация или вход */
+.form-exit-button-logreg{
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	transform: translate(15px, -15px);
+}
+
+.logreg-main-form{
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	color: #efefef;
+	z-index: 2;
+}
+
+.logreg-fon{
+	width: 100%;
+	height: 100%;
+}
+
+.logreg-fon-fon{
+	background: #22201e;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: block;
+	top: 0;
+	opacity: 0.9;
+}
+
+#logreg-form-box{
+	display: block;
+	position: relative;
+	text-align: center;
+	width: 338px;
+	height: 300px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -100%);
+	border: 1px solid gray;
+	background: #11100f;
+	opacity: 1;
+}
+
+
+
+
+
+#register-form-box{
+	display: none;
+	position: relative;
+	text-align: center;
+	width: 338px;
+	height: 365px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -80%);
+	border: 1px solid gray;
+	background: #11100f;
+	opacity: 1;
+}
+
+
+
+
+#register-sucsess-form-box{
+	display: none;
+	position: relative;
+	text-align: center;
+	width: 338px;
+	height: auto;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -300%);
+	border: 2px solid lightgreen;
+	background: #11100f;
+	opacity: 1;
+}
+
+
+.exit-button-form-logreg{
+	display: block;
+	position: relative;
+	border: 1px solid gray;
+	color: #cfcfcf;
+	background: #22201e;
+	width: 30px;
+	height: auto;
+	border-radius: 25px;
+}
+
+.exit-button-form-logreg:hover{
+	background: #cfcfcf;
+	color: #22201e;
+}
+
+.login-button{
+	margin-top: 10px;
+	width: 100%;
+}
+.login-account-button{
+	margin-top: 10px;
+	width: 100%;
+}
+.register-button{
+	margin-top: 10px;
+	width: 100%;
+}
+.register-account-button{
+	margin-top: 10px;
+	width: 100%;
+}
+.log-text{
+	margin: 10px 0px 0px 0px;
+}
+.pass-text{
+	margin: 10px 0px 0px 0px;
+}
+.t-top{
+	margin: 17px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* header */
+.header-block{
+	margin-bottom: 5px;
+}
+.header{
+	border-bottom: 1px solid gray;
+	background: #11100f;
+	color: #efefef;
+}
+.container-fluid{
+	padding-top: 10px;
+}
+.flex-line{
+	display: flex;
+	justify-content: space-between;
+
+	.name-site{
+		display: block;
+		position: relative;
+
+	}
+	.log-reg-button{
+		display: block;
+		position: relative;
+	}
+
+}
+
+
+
+
+
+/* блок после "header" */
+.block-bottom-header{
+	height: 100%;
+
+	.bg-dark-light{
+		background: #202020;
+	}
+
+	.height-100{
+		height: 100%;
+	}
+
+	.container{
+
+		/* 	блок с сылками */
+		.block-with-links{
+			display: block;
+			border-left: 1px solid gray;
+
+
+			.links{
+				list-style-type: none;
+				padding: 0px 0px 0px 5px;
+				.alboms-a,.price-a,.reviews-a{
+					color: #cfcfcf;
+					:hover{
+						background: #cfcfcf;
+						color: #11100f;
+					};
+
+					.ul-li-a-p{
+						margin: 0px;
+					}
+
+
+				}
+				.border-li{
+					margin-top: 5px;
+					margin-bottom: 5px;
+					border-top: 1px solid rgb(128, 128, 128, 0.4);
+				}
+			}
+			.vk-link{
+						width: 24px;
+						height: 24px;
+						opacity: 0.7;
+					}	
+			.vk-link:hover{
+						opacity: 1;
+					}
+		}
+
+		/* 	блок с блоками */
+		.pole-img{
+			display: block;
+			position: relative;
+			width: 100%;
+			height: 100%;
+			border-left: 1px solid gray;
+			border-right: 1px solid gray;
+
+
+			/* блок с изображением */
+			.img-block{
+				display: block;
+				background: #11100f;
+				border-radius: 15px;
+				padding: 10px 10px 0px;
+				.img{
+					width: 100%;
+					height: 100%;
+					margin: 0px 0px 10px 0px;
+					border-radius: 15px;
+					border: 1px solid gray;
+				}
+			}
+
+			/* блок с отступом */
+			.otstup-block{
+				display: block;
+				.otstup-line{
+					margin: 10px 0px 10px 0px;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+/* альбомы alboms.html */
+a{color: #cfcfcf;}
+.block-with-alboms{
+	color: #cfcfcf;
+	background: #202020;
+
+	.alboms{
+		display: block;
+		margin-top: 10px;
+
+
+		.albom{
+			display: inline-block;
+			position: relative;
+			width: 40%;
+			height: auto;
+			border: 1px solid gray;
+			background: #11100f;
+			border-radius: 15px;
+			margin: 0px 0px 8px 0px;
+			overflow: hidden;
+					
+			
+			.albom-img{
+				display: block;
+				pointer-events: none;
+				@media (min-width: 100px){
+					object-fit: cover;
+					width: 100%;
+					height: 110px;
+				}
+				@media (min-width: 640px){
+					object-fit: cover;
+					width: 100%;
+					height: 150px
+				}
+				@media (min-width: 860px){
+					object-fit: cover;
+					width: 100%;
+					height: 200px
+				}
+			}
+		}
+		.albom:hover{
+			opacity: 0.8;
+			cursor: pointer;
+		}
+	}
+}
+
+
+
+
+
+
+.block-100{
+	display: block;
+	position: relative;
+	box-sizing: border-box;
+	height: 423px;
+}
+
+
+
+
+
+
+
+
+
+/* альбом wedding */
+.wedding-albom{
+	background: #202020;
+	.image-albom{
+		
+		.podlojka{
+			display: block;
+			background: #11100f;
+			border-radius: 15px;
+			padding: 10px 10px 0px;
+			.img{
+				width: 100%;
+				height: 100%;
+				margin: 0px 0px 10px 0px;
+				border-radius: 15px;
+				border: 1px solid gray;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+/* цены за услуги */
+.price-block{
+	color: #cfcfcf;
+}
+.img-box{
+	width: 100%;
+	height: auto;
+}
+.form-price{
+	margin: 10px 0px 10px;
+}
+
+
+
+/* главная форма заявки */
+.main-form-price{
+	display: none;
+
+	#box-fon-form-wedding{
+		display: none;
+	}
+	#box-fon-form-family{
+		display: none;
+	}
+
+	.fon-form{
+		pointer-events: ;
+		display: block;
+		position: absolute;
+		text-align: left;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		color: #cfcfcf;
+		background: rgba(0, 0, 0, 0.7);
+		z-index: 1;
+
+		.box-fon-form{
+			transform: translate(-50%, 70%);
+			display: block;
+			position: relative;
+			left: 50%;
+			top: 50px;
+			width: 350px;
+			height: 400px;
+			background: #22201e;
+			padding: 20px;
+			border: 1px solid gray;
+			box-shadow: 0px 0px 10px 0px gray;
+
+
+			.form-exit-button{
+				display: block;
+				position: absolute;
+				top: 0;
+				right: 0;
+				transform: translate(15px, -15px);
+
+				.exit-button-form{
+					display: block;
+					position: relative;
+					border: 1px solid gray;
+					color: #cfcfcf;
+					background: #22201e;
+					width: 30px;
+					height: auto;
+					border-radius: 25px;
+				}
+				.exit-button-form:hover{
+					background: #cfcfcf;
+					color: #22201e;
+				}
+
+			}
+		}
+	}
+
+	#input_button_open_form{
+		margin-bottom: 5px;
+	}
+}
+
+
+
+
+
+
+/* форма панели аккаунта */
+#form-account-panel-main{
+	display: none;
+	position: absolute;
+	border: 1px solid #ffffff;
+	color: #202020;
+	background: #ffffff;
+	width: 200px;
+	height: auto;
+	top: 50px;
+	right: 0;
+	padding: 5px 10px 5px 10px;
+	z-index: 2;
+
+	.form-account-panel-class-name{
+		border-top: 1px solid gray;
+
+	}
+	.form-account-panel-class-email{
+		border-top: 1px solid gray;
+	}
+	.form-account-panel-class-pass{
+		border-top: 1px solid gray;
+	}
+
+
+	.line-line{
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+		margin: 0;
+	}
+	.buttons{
+		text-align: center;
+	}
+	.save-button,.leave-button{
+		display: inline-block;
+		padding: 10px 0px 10px 0px;
+	}
+	#save-name-in-account{
+
+	}
+	#name-account-name{
+
+	}
+	.form-account-panel-class-email{
+		pointer-events: none;
+		margin-bottom: 20px;
+		border-bottom: 1px solid gray;
+	}
+	.form-account-panel-class-pass{
+		pointer-events: none;
+		margin-bottom: 6px;
+		border-bottom: 1px solid gray;
+	}
+	
+	#email-account-text-email{
+		width: 100%;
+		color: #afafaf;
+	}
+	#pass-account-text-pass{
+		width: 100%;
+		color: #afafaf;
+	}
+	#name-name-input{
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		margin-bottom: 20px;
+		border-bottom: 1px solid gray;
+		color: #afafaf;
+	}
+	#name-name-input{
+		width: 100%;
+	}
+}
+
+/* кнопка account */
+#open-account-button{
+	display: none;
+}
+
+
+
+
+
+/* end site */
+.end-site{
+	border-top:1px solid gray;
+	background: #11100f;
+	color: #bfccd4;
+	
+	.line{
+		padding: 0px 20px 0px 20px;
+		display: inline-block;
+	}
+}
+
